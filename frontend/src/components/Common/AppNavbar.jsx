@@ -24,7 +24,7 @@ const navLinks = [
 
 function AppNavbar() {
   return (
-    <Navbar bg="primary" expand="lg" variant='dark'>
+    <Navbar bg="primary" expand="lg" variant='dark' className='app-navbar position-fixed top-0 w-100 px-3'>
       <Container>
         <Navbar.Brand className="d-flex" href="/">
           <img

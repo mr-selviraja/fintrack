@@ -23,6 +23,10 @@ $color-grey: #B0B0B0;
 $font-accent: "Righteous", "Georgia", serif;
 $font-regular: "Mukta", "Tahoma", sans-serif;
 
+// Utilities
+.font-accent {
+  font-family: $font-accent;
+}
 
 body {
   font-family: $font-regular;
@@ -32,3 +36,10 @@ body {
   color: map-get($theme-colors, "light");
 }
 
+.hero {
+  padding: calc(5vw + 5rem) 0;
+
+  &-img {
+    width: calc(10vw + 10rem);
+  }
+}
